@@ -5,6 +5,23 @@ import { BrowserRouter, useNavigate } from 'react-router-dom';
 import App from './App.tsx';
 import './index.css';
 
+// Suppress Recharts defaultProps console warnings
+const originalError = console.error;
+console.error = (...args: any[]) => {
+  if (args[0] && typeof args[0] === 'string' && args[0].includes('Support for defaultProps will be removed')) {
+    return;
+  }
+  originalError(...args);
+};
+
+const originalWarn = console.warn;
+console.warn = (...args: any[]) => {
+  if (args[0] && typeof args[0] === 'string' && args[0].includes('Support for defaultProps will be removed')) {
+    return;
+  }
+  originalWarn(...args);
+};
+
 // Fallback to a dummy valid format key if placeholder or not defined, so the app runs out of the box in development
 const rawKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 const PUBLISHABLE_KEY = (!rawKey || rawKey.includes('placeholder')) 
