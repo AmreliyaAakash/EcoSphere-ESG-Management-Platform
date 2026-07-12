@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f160001",
+    "auditId": "60d5ec4f1f1f1f1f1f150001",
+    "severity": "HIGH",
+    "description": "Waste disposal logs missing for March — Operations dept.",
+    "ownerId": "60d5ec4f1f1f1f1f1f100002",
+    "dueDate": "2026-04-15T00:00:00.000Z",
+    "status": "OPEN"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f160002",
+    "auditId": "60d5ec4f1f1f1f1f1f150001",
+    "severity": "MEDIUM",
+    "description": "Emission factor source documentation outdated.",
+    "ownerId": "60d5ec4f1f1f1f1f1f100001",
+    "dueDate": "2026-04-30T00:00:00.000Z",
+    "status": "IN_PROGRESS"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f160003",
+    "auditId": "60d5ec4f1f1f1f1f1f150002",
+    "severity": "LOW",
+    "description": "MFA not enforced for 3 admin accounts.",
+    "ownerId": "60d5ec4f1f1f1f1f1f100001",
+    "dueDate": "2026-05-10T00:00:00.000Z",
+    "status": "OPEN"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f160004",
+    "auditId": "60d5ec4f1f1f1f1f1f150003",
+    "severity": "CRITICAL",
+    "description": "Fire safety drill overdue by 45 days.",
+    "ownerId": "60d5ec4f1f1f1f1f1f100004",
+    "dueDate": "2026-05-01T00:00:00.000Z",
+    "status": "OVERDUE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f160005",
+    "auditId": "60d5ec4f1f1f1f1f1f150002",
+    "severity": "MEDIUM",
+    "description": "Data retention policy not documented for new SaaS tool.",
+    "ownerId": "60d5ec4f1f1f1f1f1f100005",
+    "dueDate": "2026-05-20T00:00:00.000Z",
+    "status": "OPEN"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f160006",
+    "auditId": "60d5ec4f1f1f1f1f1f150001",
+    "severity": "LOW",
+    "description": "Minor signage missing in hazardous waste area.",
+    "ownerId": "60d5ec4f1f1f1f1f1f100002",
+    "dueDate": "2026-06-01T00:00:00.000Z",
+    "status": "RESOLVED"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f160007",
+    "auditId": "60d5ec4f1f1f1f1f1f150003",
+    "severity": "HIGH",
+    "description": "First aid kit inventory not updated quarterly.",
+    "ownerId": "60d5ec4f1f1f1f1f1f100004",
+    "dueDate": "2026-06-05T00:00:00.000Z",
+    "status": "OVERDUE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f160008",
+    "auditId": "60d5ec4f1f1f1f1f1f150004",
+    "severity": "LOW",
+    "description": "Expense approval threshold needs review.",
+    "ownerId": "60d5ec4f1f1f1f1f1f100005",
+    "dueDate": "2026-07-15T00:00:00.000Z",
+    "status": "IN_PROGRESS"
+  }
+]

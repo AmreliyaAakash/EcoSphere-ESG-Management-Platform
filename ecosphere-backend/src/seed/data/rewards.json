@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f070001",
+    "name": "EcoSphere Tote Bag",
+    "description": "Organic cotton tote bag",
+    "pointsRequired": 200,
+    "stock": 45,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f070002",
+    "name": "Reusable Water Bottle",
+    "description": "Insulated stainless steel bottle",
+    "pointsRequired": 350,
+    "stock": 28,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f070003",
+    "name": "Extra Day Off",
+    "description": "One additional PTO day",
+    "pointsRequired": 1200,
+    "stock": 10,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f070004",
+    "name": "Bamboo Desk Organizer",
+    "description": "Sustainable desk accessory",
+    "pointsRequired": 500,
+    "stock": 15,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f070005",
+    "name": "Solar Power Bank",
+    "description": "10,000mAh solar charger",
+    "pointsRequired": 800,
+    "stock": 0,
+    "status": "INACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f070006",
+    "name": "Tree Planted in Your Name",
+    "description": "A tree planted via One Tree Planted",
+    "pointsRequired": 150,
+    "stock": 999,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f070007",
+    "name": "EcoSphere Hoodie",
+    "description": "Recycled material hoodie",
+    "pointsRequired": 1000,
+    "stock": 8,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f070008",
+    "name": "Lunch with CEO",
+    "description": "Lunch with leadership to discuss ESG",
+    "pointsRequired": 2500,
+    "stock": 4,
+    "status": "ACTIVE"
+  }
+]

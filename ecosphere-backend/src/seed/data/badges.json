@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f060001",
+    "name": "Eco Rookie",
+    "description": "Complete your first environmental activity",
+    "unlockRule": {
+      "type": "CHALLENGES_COMPLETED",
+      "threshold": 1
+    },
+    "iconUrl": "🌱"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f060002",
+    "name": "Carbon Crusher",
+    "description": "Reach 500 XP",
+    "unlockRule": {
+      "type": "XP",
+      "threshold": 500
+    },
+    "iconUrl": "🌿"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f060003",
+    "name": "Sustainability Star",
+    "description": "Complete 5 challenges",
+    "unlockRule": {
+      "type": "CHALLENGES_COMPLETED",
+      "threshold": 5
+    },
+    "iconUrl": "⭐"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f060004",
+    "name": "Green Champion",
+    "description": "Reach 1,500 XP",
+    "unlockRule": {
+      "type": "XP",
+      "threshold": 1500
+    },
+    "iconUrl": "🏆"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f060005",
+    "name": "Earth Guardian",
+    "description": "Complete 10 challenges",
+    "unlockRule": {
+      "type": "CHALLENGES_COMPLETED",
+      "threshold": 10
+    },
+    "iconUrl": "🌍"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f060006",
+    "name": "Eco Legend",
+    "description": "Reach 5,000 XP",
+    "unlockRule": {
+      "type": "XP",
+      "threshold": 5000
+    },
+    "iconUrl": "👑"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f060007",
+    "name": "Team Player",
+    "description": "Complete 3 CSR activities",
+    "unlockRule": {
+      "type": "CHALLENGES_COMPLETED",
+      "threshold": 3
+    },
+    "iconUrl": "🤝"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f060008",
+    "name": "Impact Maker",
+    "description": "Reach 3,000 XP",
+    "unlockRule": {
+      "type": "XP",
+      "threshold": 3000
+    },
+    "iconUrl": "💎"
+  }
+]

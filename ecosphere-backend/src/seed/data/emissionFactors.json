@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f030001",
+    "activityType": "Electricity — Grid",
+    "unit": "kWh",
+    "co2ePerUnit": 0.42,
+    "source": "DEFRA 2024"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f030002",
+    "activityType": "Natural Gas",
+    "unit": "m³",
+    "co2ePerUnit": 2.02,
+    "source": "DEFRA 2024"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f030003",
+    "activityType": "Diesel — Fleet",
+    "unit": "L",
+    "co2ePerUnit": 2.68,
+    "source": "EPA 2024"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f030004",
+    "activityType": "Air Travel — Short Haul",
+    "unit": "passenger-km",
+    "co2ePerUnit": 0.16,
+    "source": "DEFRA 2024"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f030005",
+    "activityType": "Air Travel — Long Haul",
+    "unit": "passenger-km",
+    "co2ePerUnit": 0.19,
+    "source": "DEFRA 2024"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f030006",
+    "activityType": "Office Paper",
+    "unit": "kg",
+    "co2ePerUnit": 1.24,
+    "source": "EPA 2024"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f030007",
+    "activityType": "Water Supply",
+    "unit": "m³",
+    "co2ePerUnit": 0.15,
+    "source": "DEFRA 2024"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f030008",
+    "activityType": "Waste — Landfill",
+    "unit": "kg",
+    "co2ePerUnit": 0.45,
+    "source": "EPA 2024"
+  }
+]

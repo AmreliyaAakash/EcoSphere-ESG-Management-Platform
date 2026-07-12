@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: ecosphere-backend
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: VITE_FRONTEND_URL
+        sync: false
+      - key: SEED_RESET
+        value: "false"

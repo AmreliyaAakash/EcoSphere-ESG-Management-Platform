@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f020004",
+    "name": "Carbon Reduction",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f020005",
+    "name": "Energy Saving",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f020006",
+    "name": "Wellness",
+    "status": "ACTIVE"
+  }
+]

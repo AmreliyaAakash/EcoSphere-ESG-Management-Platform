@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080001",
+    "sourceModule": "Energy",
+    "quantity": 4500,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030001",
+    "co2eCalculated": 1890,
+    "departmentId": "60d5ec4f1f1f1f1f1f010001",
+    "date": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080002",
+    "sourceModule": "Transport",
+    "quantity": 320,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030003",
+    "co2eCalculated": 857.6,
+    "departmentId": "60d5ec4f1f1f1f1f1f010003",
+    "date": "2026-01-18T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080003",
+    "sourceModule": "Travel",
+    "quantity": 5400,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030005",
+    "co2eCalculated": 1026,
+    "departmentId": "60d5ec4f1f1f1f1f1f010005",
+    "date": "2026-01-22T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080004",
+    "sourceModule": "Energy",
+    "quantity": 2800,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030002",
+    "co2eCalculated": 5656,
+    "departmentId": "60d5ec4f1f1f1f1f1f010002",
+    "date": "2026-01-25T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080005",
+    "sourceModule": "Waste",
+    "quantity": 180,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030008",
+    "co2eCalculated": 81,
+    "departmentId": "60d5ec4f1f1f1f1f1f010004",
+    "date": "2026-02-01T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080006",
+    "sourceModule": "Energy",
+    "quantity": 6200,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030001",
+    "co2eCalculated": 2604,
+    "departmentId": "60d5ec4f1f1f1f1f1f010001",
+    "date": "2026-02-05T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080007",
+    "sourceModule": "Transport",
+    "quantity": 450,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030003",
+    "co2eCalculated": 1206,
+    "departmentId": "60d5ec4f1f1f1f1f1f010003",
+    "date": "2026-02-08T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080008",
+    "sourceModule": "Travel",
+    "quantity": 2200,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030004",
+    "co2eCalculated": 352,
+    "departmentId": "60d5ec4f1f1f1f1f1f010005",
+    "date": "2026-02-10T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f080009",
+    "sourceModule": "Water",
+    "quantity": 340,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030007",
+    "co2eCalculated": 51,
+    "departmentId": "60d5ec4f1f1f1f1f1f010002",
+    "date": "2026-02-12T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f08000a",
+    "sourceModule": "Energy",
+    "quantity": 3900,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030001",
+    "co2eCalculated": 1638,
+    "departmentId": "60d5ec4f1f1f1f1f1f010002",
+    "date": "2026-02-15T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f08000b",
+    "sourceModule": "Waste",
+    "quantity": 95,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030008",
+    "co2eCalculated": 42.75,
+    "departmentId": "60d5ec4f1f1f1f1f1f010001",
+    "date": "2026-02-18T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f08000c",
+    "sourceModule": "Transport",
+    "quantity": 610,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030003",
+    "co2eCalculated": 1634.8,
+    "departmentId": "60d5ec4f1f1f1f1f1f010003",
+    "date": "2026-02-20T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f08000d",
+    "sourceModule": "Travel",
+    "quantity": 8800,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030005",
+    "co2eCalculated": 1672,
+    "departmentId": "60d5ec4f1f1f1f1f1f010005",
+    "date": "2026-02-22T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f08000e",
+    "sourceModule": "Energy",
+    "quantity": 5100,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030002",
+    "co2eCalculated": 10302,
+    "departmentId": "60d5ec4f1f1f1f1f1f010001",
+    "date": "2026-02-25T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f08000f",
+    "sourceModule": "Energy",
+    "quantity": 2300,
+    "emissionFactorId": "60d5ec4f1f1f1f1f1f030001",
+    "co2eCalculated": 966,
+    "departmentId": "60d5ec4f1f1f1f1f1f010004",
+    "date": "2026-03-01T00:00:00.000Z"
+  }
+]

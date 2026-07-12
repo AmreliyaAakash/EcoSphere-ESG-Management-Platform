@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f020001",
+    "name": "Tree Planting",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f020002",
+    "name": "Community Volunteering",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f020003",
+    "name": "Education Drive",
+    "status": "ACTIVE"
+  }
+]

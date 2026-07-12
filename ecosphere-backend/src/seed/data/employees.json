@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100001",
+    "name": "Alex Chen",
+    "email": "alex.chen@ecosphere.io",
+    "role": "ADMIN",
+    "departmentId": "60d5ec4f1f1f1f1f1f010001",
+    "xpBalance": 3200,
+    "pointsBalance": 1850,
+    "avatarUrl": "https://i.pravatar.cc/100?img=12"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100002",
+    "name": "Priya Patel",
+    "email": "priya.patel@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010002",
+    "xpBalance": 2850,
+    "pointsBalance": 1420,
+    "avatarUrl": "https://i.pravatar.cc/100?img=45"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100003",
+    "name": "Marcus Johnson",
+    "email": "marcus.j@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010003",
+    "xpBalance": 4100,
+    "pointsBalance": 2100,
+    "avatarUrl": "https://i.pravatar.cc/100?img=33"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100004",
+    "name": "Sofia Rodriguez",
+    "email": "sofia.r@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010004",
+    "xpBalance": 1950,
+    "pointsBalance": 980,
+    "avatarUrl": "https://i.pravatar.cc/100?img=47"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100005",
+    "name": "David Kim",
+    "email": "david.kim@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010005",
+    "xpBalance": 1500,
+    "pointsBalance": 760,
+    "avatarUrl": "https://i.pravatar.cc/100?img=15"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100006",
+    "name": "Emma Wilson",
+    "email": "emma.w@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010007",
+    "xpBalance": 3650,
+    "pointsBalance": 1600,
+    "avatarUrl": "https://i.pravatar.cc/100?img=20"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100007",
+    "name": "Liam O'Brien",
+    "email": "liam.o@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010006",
+    "xpBalance": 2200,
+    "pointsBalance": 1150,
+    "avatarUrl": "https://i.pravatar.cc/100?img=68"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100008",
+    "name": "Aisha Mohammed",
+    "email": "aisha.m@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010002",
+    "xpBalance": 2800,
+    "pointsBalance": 1320,
+    "avatarUrl": "https://i.pravatar.cc/100?img=49"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f100009",
+    "name": "Yuki Tanaka",
+    "email": "yuki.t@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010003",
+    "xpBalance": 3400,
+    "pointsBalance": 1750,
+    "avatarUrl": "https://i.pravatar.cc/100?img=23"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f10000a",
+    "name": "Olivia Brown",
+    "email": "olivia.b@ecosphere.io",
+    "role": "EMPLOYEE",
+    "departmentId": "60d5ec4f1f1f1f1f1f010005",
+    "xpBalance": 1750,
+    "pointsBalance": 890,
+    "avatarUrl": "https://i.pravatar.cc/100?img=31"
+  }
+]

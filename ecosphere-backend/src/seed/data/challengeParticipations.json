@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130001",
+    "challengeId": "60d5ec4f1f1f1f1f1f120001",
+    "employeeId": "60d5ec4f1f1f1f1f1f100007",
+    "progress": 60,
+    "proofUrl": "/proof/cp1.jpg",
+    "approval": "PENDING",
+    "xpAwarded": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130002",
+    "challengeId": "60d5ec4f1f1f1f1f1f120001",
+    "employeeId": "60d5ec4f1f1f1f1f1f100008",
+    "progress": 100,
+    "proofUrl": "/proof/cp2.jpg",
+    "approval": "PENDING",
+    "xpAwarded": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130003",
+    "challengeId": "60d5ec4f1f1f1f1f1f120001",
+    "employeeId": "60d5ec4f1f1f1f1f1f100003",
+    "progress": 40,
+    "proofUrl": null,
+    "approval": "PENDING",
+    "xpAwarded": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130004",
+    "challengeId": "60d5ec4f1f1f1f1f1f120002",
+    "employeeId": "60d5ec4f1f1f1f1f1f100006",
+    "progress": 100,
+    "proofUrl": null,
+    "approval": "APPROVED",
+    "xpAwarded": 150
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130005",
+    "challengeId": "60d5ec4f1f1f1f1f1f120002",
+    "employeeId": "60d5ec4f1f1f1f1f1f100001",
+    "progress": 80,
+    "proofUrl": null,
+    "approval": "PENDING",
+    "xpAwarded": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130006",
+    "challengeId": "60d5ec4f1f1f1f1f1f120003",
+    "employeeId": "60d5ec4f1f1f1f1f1f100009",
+    "progress": 25,
+    "proofUrl": "/proof/cp6.jpg",
+    "approval": "PENDING",
+    "xpAwarded": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130007",
+    "challengeId": "60d5ec4f1f1f1f1f1f120003",
+    "employeeId": "60d5ec4f1f1f1f1f1f100004",
+    "progress": 50,
+    "proofUrl": "/proof/cp7.jpg",
+    "approval": "PENDING",
+    "xpAwarded": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130008",
+    "challengeId": "60d5ec4f1f1f1f1f1f120004",
+    "employeeId": "60d5ec4f1f1f1f1f1f100002",
+    "progress": 100,
+    "proofUrl": null,
+    "approval": "PENDING",
+    "xpAwarded": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f130009",
+    "challengeId": "60d5ec4f1f1f1f1f1f120004",
+    "employeeId": "60d5ec4f1f1f1f1f1f10000a",
+    "progress": 70,
+    "proofUrl": null,
+    "approval": "PENDING",
+    "xpAwarded": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f13000a",
+    "challengeId": "60d5ec4f1f1f1f1f1f120007",
+    "employeeId": "60d5ec4f1f1f1f1f1f100007",
+    "progress": 35,
+    "proofUrl": "/proof/cp10.jpg",
+    "approval": "PENDING",
+    "xpAwarded": 0
+  }
+]
