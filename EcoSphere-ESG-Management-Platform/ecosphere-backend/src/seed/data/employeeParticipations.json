@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f110001",
+    "employeeId": "60d5ec4f1f1f1f1f1f100007",
+    "activityId": "60d5ec4f1f1f1f1f1f090001",
+    "proofUrl": "/proof/ep1.jpg",
+    "approvalStatus": "PENDING",
+    "pointsEarned": 0,
+    "completionDate": "2026-02-14T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f110002",
+    "employeeId": "60d5ec4f1f1f1f1f1f100008",
+    "activityId": "60d5ec4f1f1f1f1f1f090001",
+    "proofUrl": "/proof/ep2.jpg",
+    "approvalStatus": "PENDING",
+    "pointsEarned": 0,
+    "completionDate": "2026-02-14T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f110003",
+    "employeeId": "60d5ec4f1f1f1f1f1f100003",
+    "activityId": "60d5ec4f1f1f1f1f1f090002",
+    "proofUrl": null,
+    "approvalStatus": "PENDING",
+    "pointsEarned": 0,
+    "completionDate": "2026-02-20T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f110004",
+    "employeeId": "60d5ec4f1f1f1f1f1f100006",
+    "activityId": "60d5ec4f1f1f1f1f1f090003",
+    "proofUrl": "/proof/ep4.jpg",
+    "approvalStatus": "APPROVED",
+    "pointsEarned": 50,
+    "completionDate": "2026-03-05T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f110005",
+    "employeeId": "60d5ec4f1f1f1f1f1f100001",
+    "activityId": "60d5ec4f1f1f1f1f1f090004",
+    "proofUrl": "/proof/ep5.jpg",
+    "approvalStatus": "APPROVED",
+    "pointsEarned": 75,
+    "completionDate": "2026-03-12T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f110006",
+    "employeeId": "60d5ec4f1f1f1f1f1f100004",
+    "activityId": "60d5ec4f1f1f1f1f1f090005",
+    "proofUrl": null,
+    "approvalStatus": "REJECTED",
+    "pointsEarned": 0,
+    "completionDate": "2026-03-18T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f110007",
+    "employeeId": "60d5ec4f1f1f1f1f1f100002",
+    "activityId": "60d5ec4f1f1f1f1f1f090002",
+    "proofUrl": "/proof/ep7.jpg",
+    "approvalStatus": "PENDING",
+    "pointsEarned": 0,
+    "completionDate": "2026-02-20T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f110008",
+    "employeeId": "60d5ec4f1f1f1f1f1f100009",
+    "activityId": "60d5ec4f1f1f1f1f1f090001",
+    "proofUrl": "/proof/ep8.jpg",
+    "approvalStatus": "PENDING",
+    "pointsEarned": 0,
+    "completionDate": "2026-02-14T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f040001",
+    "metric": "Reduce Scope 1 Emissions (tCO2e)",
+    "targetValue": 120,
+    "currentValue": 78,
+    "deadline": "2026-12-31T00:00:00.000Z",
+    "departmentId": "60d5ec4f1f1f1f1f1f010001"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f040002",
+    "metric": "Reduce Scope 2 Emissions (tCO2e)",
+    "targetValue": 300,
+    "currentValue": 245,
+    "deadline": "2026-12-31T00:00:00.000Z",
+    "departmentId": "60d5ec4f1f1f1f1f1f010002"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f040003",
+    "metric": "Increase Renewable Energy %",
+    "targetValue": 80,
+    "currentValue": 52,
+    "deadline": "2026-06-30T00:00:00.000Z",
+    "departmentId": "60d5ec4f1f1f1f1f1f010002"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f040004",
+    "metric": "Reduce Fleet Emissions (tCO2e)",
+    "targetValue": 90,
+    "currentValue": 61,
+    "deadline": "2026-09-30T00:00:00.000Z",
+    "departmentId": "60d5ec4f1f1f1f1f1f010003"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f040005",
+    "metric": "Zero Waste to Landfill %",
+    "targetValue": 100,
+    "currentValue": 74,
+    "deadline": "2026-12-31T00:00:00.000Z",
+    "departmentId": "60d5ec4f1f1f1f1f1f010004"
+  }
+]

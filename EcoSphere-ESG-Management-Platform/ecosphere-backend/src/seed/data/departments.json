@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f010001",
+    "name": "Engineering",
+    "code": "ENG",
+    "headEmployeeId": "60d5ec4f1f1f1f1f1f100001",
+    "parentDepartmentId": null,
+    "employeeCount": 48,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f010002",
+    "name": "Operations",
+    "code": "OPS",
+    "headEmployeeId": "60d5ec4f1f1f1f1f1f100002",
+    "parentDepartmentId": null,
+    "employeeCount": 32,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f010003",
+    "name": "Sales & Marketing",
+    "code": "SML",
+    "headEmployeeId": "60d5ec4f1f1f1f1f1f100003",
+    "parentDepartmentId": null,
+    "employeeCount": 24,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f010004",
+    "name": "Human Resources",
+    "code": "HR",
+    "headEmployeeId": "60d5ec4f1f1f1f1f1f100004",
+    "parentDepartmentId": null,
+    "employeeCount": 12,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f010005",
+    "name": "Finance",
+    "code": "FIN",
+    "headEmployeeId": "60d5ec4f1f1f1f1f1f100005",
+    "parentDepartmentId": null,
+    "employeeCount": 16,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f010006",
+    "name": "Frontend Team",
+    "code": "FE",
+    "headEmployeeId": "60d5ec4f1f1f1f1f1f100001",
+    "parentDepartmentId": "60d5ec4f1f1f1f1f1f010001",
+    "employeeCount": 18,
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f010007",
+    "name": "Backend Team",
+    "code": "BE",
+    "headEmployeeId": "60d5ec4f1f1f1f1f1f100006",
+    "parentDepartmentId": "60d5ec4f1f1f1f1f1f010001",
+    "employeeCount": 20,
+    "status": "ACTIVE"
+  }
+]

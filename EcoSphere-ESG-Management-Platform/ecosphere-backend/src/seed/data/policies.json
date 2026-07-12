@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f050001",
+    "title": "Code of Conduct",
+    "description": "Ethical standards for all employees.",
+    "category": "Governance",
+    "version": "3.2",
+    "fileUrl": "/docs/coc-v3.2.pdf",
+    "signatureRequired": true
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f050002",
+    "title": "Anti-Bribery & Corruption",
+    "description": "Zero-tolerance policy on bribery.",
+    "category": "Governance",
+    "version": "2.0",
+    "fileUrl": "/docs/abc-v2.pdf",
+    "signatureRequired": true
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f050003",
+    "title": "Environmental Policy",
+    "description": "Commitment to reducing environmental impact.",
+    "category": "Environmental",
+    "version": "4.1",
+    "fileUrl": "/docs/env-v4.1.pdf",
+    "signatureRequired": false
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f050004",
+    "title": "Diversity & Inclusion",
+    "description": "Fostering an inclusive workplace.",
+    "category": "Social",
+    "version": "1.5",
+    "fileUrl": "/docs/di-v1.5.pdf",
+    "signatureRequired": false
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f050005",
+    "title": "Data Protection & Privacy",
+    "description": "GDPR-compliant data handling.",
+    "category": "Governance",
+    "version": "2.3",
+    "fileUrl": "/docs/dp-v2.3.pdf",
+    "signatureRequired": false
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f050006",
+    "title": "Whistleblower Protection",
+    "description": "Reporting channels and protections.",
+    "category": "Governance",
+    "version": "1.8",
+    "fileUrl": "/docs/wb-v1.8.pdf",
+    "signatureRequired": false
+  }
+]

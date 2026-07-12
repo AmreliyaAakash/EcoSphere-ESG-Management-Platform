@@ -1,0 +1,194 @@
+/* src/styles/loading.css */
+
+.loading-bg {
+  background: radial-gradient(circle at 50% 50%, #081a14 0%, #06110e 60%, #030807 100%);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+}
+
+/* Elegant grid pattern overlay - dark forest green theme */
+.glowing-grid {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(46, 125, 91, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(46, 125, 91, 0.08) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: center;
+  mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 80%);
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 80%);
+  pointer-events: none;
+}
+
+/* Glassmorphism panels for premium dark theme */
+.glass-card {
+  background: rgba(6, 16, 14, 0.55);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(46, 125, 91, 0.15);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+}
+
+/* Slow animated background blobs - forest green and gold dashboard tones */
+.blur-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+  opacity: 0.16;
+  transition: all 1s ease-in-out;
+}
+
+.blob-green {
+  width: 500px;
+  height: 500px;
+  background: #2e7d5b; /* Dashboard primary green */
+  top: 10%;
+  left: 5%;
+  animation: float-blob-green 25s infinite alternate ease-in-out;
+}
+
+.blob-blue {
+  width: 550px;
+  height: 550px;
+  background: #5b7082; /* Dashboard slate/blue */
+  bottom: 5%;
+  right: 5%;
+  animation: float-blob-blue 30s infinite alternate ease-in-out;
+}
+
+.blob-cyan {
+  width: 400px;
+  height: 400px;
+  background: #c9a227; /* Dashboard gold */
+  top: 40%;
+  left: 35%;
+  animation: float-blob-cyan 22s infinite alternate ease-in-out;
+}
+
+@keyframes float-blob-green {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(50px, -40px) scale(1.1); }
+  100% { transform: translate(-30px, 30px) scale(0.95); }
+}
+
+@keyframes float-blob-blue {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-60px, 50px) scale(0.95); }
+  100% { transform: translate(50px, -30px) scale(1.05); }
+}
+
+@keyframes float-blob-cyan {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(40px, 40px) scale(1.08); }
+  100% { transform: translate(-50px, -50px) scale(0.9); }
+}
+
+/* Scanning line animation - extremely subtle */
+.scan-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(46, 125, 91, 0.15), transparent);
+  animation: scan 9s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes scan {
+  0% { top: 0%; }
+  50% { top: 100%; }
+  100% { top: 0%; }
+}
+
+/* ESG Letters animations style helper - clean slate dark green */
+.esg-letter {
+  display: inline-block;
+  font-weight: 800;
+  font-family: 'Space Grotesk', sans-serif;
+  text-shadow: 0 0 20px rgba(46, 125, 91, 0.3);
+}
+
+.ecosphere-text {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, #ffffff 0%, #3ca374 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Central Dot animation */
+.glowing-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #3ca374;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 4px rgba(60, 163, 116, 0.6);
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+/* Node layout on HUD overlay */
+.hud-node {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  transform: translate(-50%, -50%);
+}
+
+.hud-node-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(46, 125, 91, 0.2);
+  border: 1px solid rgba(46, 125, 91, 0.4);
+  margin-bottom: 6px;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hud-node-active .hud-node-dot {
+  background: #3ca374;
+  border-color: #6ee7b7;
+  box-shadow: 0 0 15px 3px rgba(60, 163, 116, 0.5);
+  transform: scale(1.3);
+}
+
+.hud-node-label {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 8px;
+  text-transform: uppercase;
+  transition: color 0.4s ease;
+  white-space: nowrap;
+}
+
+.hud-node-active .hud-node-label {
+  color: #3ca374;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(60, 163, 116, 0.3);
+}
+
+/* Connection canvas */
+.hud-connections-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}

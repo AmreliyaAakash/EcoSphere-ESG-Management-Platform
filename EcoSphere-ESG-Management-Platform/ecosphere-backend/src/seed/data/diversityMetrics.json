@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090001",
+    "type": "GENDER",
+    "category": "Women",
+    "value": 48,
+    "label": "Women"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090002",
+    "type": "GENDER",
+    "category": "Men",
+    "value": 52,
+    "label": "Men"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090003",
+    "type": "DEPARTMENT",
+    "category": "Engineering",
+    "value": 35,
+    "label": "Women in Engineering"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090004",
+    "type": "DEPARTMENT",
+    "category": "Operations",
+    "value": 42,
+    "label": "Women in Operations"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090005",
+    "type": "DEPARTMENT",
+    "category": "Sales & Marketing",
+    "value": 55,
+    "label": "Women in Sales"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090006",
+    "type": "DEPARTMENT",
+    "category": "Human Resources",
+    "value": 70,
+    "label": "Women in HR"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090007",
+    "type": "DEPARTMENT",
+    "category": "Finance",
+    "value": 44,
+    "label": "Women in Finance"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090008",
+    "type": "ETHNICITY",
+    "category": "Asian",
+    "value": 38,
+    "label": "Asian"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f090009",
+    "type": "ETHNICITY",
+    "category": "White",
+    "value": 42,
+    "label": "White"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f09000a",
+    "type": "ETHNICITY",
+    "category": "Hispanic/Latino",
+    "value": 10,
+    "label": "Hispanic/Latino"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f09000b",
+    "type": "ETHNICITY",
+    "category": "Black/African American",
+    "value": 6,
+    "label": "Black/African American"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f09000c",
+    "type": "ETHNICITY",
+    "category": "Other",
+    "value": 4,
+    "label": "Other"
+  }
+]

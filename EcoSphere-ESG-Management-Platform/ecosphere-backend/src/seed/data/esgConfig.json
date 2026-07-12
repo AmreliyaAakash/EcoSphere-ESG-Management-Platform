@@ -1,0 +1,8 @@
+{
+  "envWeight": 40,
+  "socialWeight": 30,
+  "govWeight": 30,
+  "autoEmissionCalc": true,
+  "evidenceRequired": true,
+  "badgeAutoAward": false
+}

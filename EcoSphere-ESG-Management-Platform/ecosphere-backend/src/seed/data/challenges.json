@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f120001",
+    "title": "Commute Carbon-Free for a Week",
+    "categoryId": "60d5ec4f1f1f1f1f1f020004",
+    "description": "Bike, walk, or take public transit for 5 consecutive workdays.",
+    "xp": 250,
+    "difficulty": "MEDIUM",
+    "evidenceRequired": true,
+    "deadline": "2026-07-31T00:00:00.000Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f120002",
+    "title": "Reduce Desk Energy Use",
+    "categoryId": "60d5ec4f1f1f1f1f1f020005",
+    "description": "Unplug devices after work for 10 days.",
+    "xp": 150,
+    "difficulty": "EASY",
+    "evidenceRequired": false,
+    "deadline": "2026-07-15T00:00:00.000Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f120003",
+    "title": "Zero Single-Use Plastics Month",
+    "categoryId": "60d5ec4f1f1f1f1f1f020004",
+    "description": "No single-use plastic for 30 days.",
+    "xp": 400,
+    "difficulty": "HARD",
+    "evidenceRequired": true,
+    "deadline": "2026-08-31T00:00:00.000Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f120004",
+    "title": "10K Steps Daily Challenge",
+    "categoryId": "60d5ec4f1f1f1f1f1f020006",
+    "description": "Walk 10,000 steps every day for 2 weeks.",
+    "xp": 200,
+    "difficulty": "MEDIUM",
+    "evidenceRequired": false,
+    "deadline": "2026-07-20T00:00:00.000Z",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f120005",
+    "title": "Mentor a Junior Colleague",
+    "categoryId": "60d5ec4f1f1f1f1f1f020006",
+    "description": "Complete 4 mentoring sessions.",
+    "xp": 300,
+    "difficulty": "MEDIUM",
+    "evidenceRequired": true,
+    "deadline": "2026-09-30T00:00:00.000Z",
+    "status": "DRAFT"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f120006",
+    "title": "Paperless Office Sprint",
+    "categoryId": "60d5ec4f1f1f1f1f1f020005",
+    "description": "Go fully paperless for 2 weeks.",
+    "xp": 180,
+    "difficulty": "EASY",
+    "evidenceRequired": false,
+    "deadline": "2026-06-30T00:00:00.000Z",
+    "status": "COMPLETED"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f120007",
+    "title": "Community Garden Project",
+    "categoryId": "60d5ec4f1f1f1f1f1f020004",
+    "description": "Volunteer 8 hours at a community garden.",
+    "xp": 350,
+    "difficulty": "HARD",
+    "evidenceRequired": true,
+    "deadline": "2026-08-15T00:00:00.000Z",
+    "status": "ACTIVE"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f120008",
+    "title": "Meatless Monday",
+    "categoryId": "60d5ec4f1f1f1f1f1f020006",
+    "description": "No meat on Mondays for 8 weeks.",
+    "xp": 120,
+    "difficulty": "EASY",
+    "evidenceRequired": false,
+    "deadline": "2026-09-01T00:00:00.000Z",
+    "status": "DRAFT"
+  }
+]

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* EcoSphere ESG Palette */
+    --background: 96 24% 97%;          /* #F6F8F5 soft sage-white */
+    --foreground: 160 30% 10%;         /* #0F1A17 near-black green */
+    --card: 0 0% 100%;
+    --card-foreground: 160 30% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 30% 10%;
+
+    --primary: 152 47% 33%;            /* #2E7D5B deep emerald */
+    --primary-foreground: 96 24% 97%;
+
+    --secondary: 48 60% 48%;           /* #C9A227 muted gold */
+    --secondary-foreground: 160 30% 10%;
+
+    --accent: 160 30% 10%;             /* #0F1A17 near-black green */
+    --accent-foreground: 96 24% 97%;
+
+    --muted: 96 16% 90%;
+    --muted-foreground: 160 15% 38%;
+
+    --destructive: 0 72% 51%;          /* alert red */
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 142 50% 40%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 80% 50%;
+    --warning-foreground: 160 30% 10%;
+
+    --border: 96 12% 85%;
+    --input: 96 12% 82%;
+    --ring: 152 47% 33%;
+
+    --governance: 210 20% 32%;        /* #4A5568 slate */
+
+    --chart-1: 152 47% 33%;            /* emerald */
+    --chart-2: 48 60% 48%;             /* gold */
+    --chart-3: 210 20% 32%;            /* slate */
+    --chart-4: 142 50% 40%;            /* success green */
+    --chart-5: 0 72% 51%;              /* red */
+
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    --background: 160 30% 6%;          /* #0F1A17 near-black green */
+    --foreground: 96 24% 92%;
+    --card: 160 28% 9%;
+    --card-foreground: 96 24% 92%;
+    --popover: 160 28% 9%;
+    --popover-foreground: 96 24% 92%;
+
+    --primary: 152 47% 42%;            /* lighter emerald for dark */
+    --primary-foreground: 160 30% 6%;
+
+    --secondary: 48 55% 52%;            /* lighter gold */
+    --secondary-foreground: 160 30% 6%;
+
+    --accent: 160 20% 14%;
+    --accent-foreground: 96 24% 92%;
+
+    --muted: 160 18% 14%;
+    --muted-foreground: 96 12% 62%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 142 45% 45%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 75% 55%;
+    --warning-foreground: 160 30% 6%;
+
+    --border: 160 18% 18%;
+    --input: 160 18% 20%;
+    --ring: 152 47% 42%;
+
+    --governance: 210 18% 52%;
+
+    --chart-1: 152 47% 42%;
+    --chart-2: 48 55% 52%;
+    --chart-3: 210 18% 52%;
+    --chart-4: 142 45% 45%;
+    --chart-5: 0 62% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+  }
+  .font-mono, .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+    font-feature-settings: "tnum";
+  }
+}
+
+@layer utilities {
+  .bg-eco-gradient {
+    background: linear-gradient(135deg, #e8f3e5 0%, #f6faf4 50%, #d8ebd3 100%) !important;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--border));
+    border-radius: 3px;
+  }
+  .bg-grid {
+    background-image:
+      linear-gradient(hsl(var(--border) / 0.4) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.4) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ==========================================================================
+   Clerk Dark Emerald Styling Overrides (Bulletproof Styling Integration)
+   ========================================================================== */
+.cl-rootBox {
+  width: 100% !important;
+}
+.cl-cardBox {
+  width: 100% !important;
+  box-shadow: none !important;
+}
+.cl-card {
+  background-color: #0b1d16 !important;
+  border: 1px solid rgba(46, 125, 91, 0.25) !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 0.75rem !important;
+}
+.cl-headerTitle {
+  color: #ffffff !important;
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+.cl-headerSubtitle {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.cl-socialButtonsBlockButton {
+  background-color: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+.cl-socialButtonsBlockButton:hover {
+  background-color: rgba(255, 255, 255, 0.07) !important;
+}
+.cl-socialButtonsBlockButtonText {
+  color: #ffffff !important;
+}
+/* Wildcard matching to invert Apple, GitHub, and Solana icons to white regardless of Clerk's exact class naming scheme */
+.cl-socialButtonsBlockButton[class*="apple"] img,
+.cl-socialButtonsBlockButton[class*="apple"] svg,
+.cl-socialButtonsBlockButton[class*="github"] img,
+.cl-socialButtonsBlockButton[class*="github"] svg,
+.cl-socialButtonsBlockButton[class*="solana"] img,
+.cl-socialButtonsBlockButton[class*="solana"] svg,
+[class*="socialButtonsBlockButton"][class*="apple"] img,
+[class*="socialButtonsBlockButton"][class*="apple"] svg,
+[class*="socialButtonsBlockButton"][class*="github"] img,
+[class*="socialButtonsBlockButton"][class*="github"] svg,
+[class*="socialButtonsBlockButton"][class*="solana"] img,
+[class*="socialButtonsBlockButton"][class*="solana"] svg,
+button[class*="apple"] img,
+button[class*="apple"] svg,
+button[class*="github"] img,
+button[class*="github"] svg,
+button[class*="solana"] img,
+button[class*="solana"] svg {
+  filter: brightness(0) invert(1) !important;
+}
+.cl-dividerText {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.cl-formFieldLabel {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.cl-formFieldInput {
+  background-color: #050e0a !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+.cl-formFieldInput:focus {
+  border-color: #3ca374 !important;
+}
+.cl-formButtonPrimary {
+  background-color: #2e7d5b !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+.cl-formButtonPrimary:hover {
+  background-color: #256c4e !important;
+}
+.cl-footer {
+  background-color: #07130f !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+  background-image: none !important;
+}
+.cl-footerActionText {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.cl-footerActionLink {
+  color: #3ca374 !important;
+}
+.cl-footerActionLink:hover {
+  color: #4ade80 !important;
+  text-decoration: underline !important;
+}
+.cl-clerkBranding {
+  display: none !important;
+}
+

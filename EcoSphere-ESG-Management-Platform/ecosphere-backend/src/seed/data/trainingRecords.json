@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0001",
+    "employeeId": "60d5ec4f1f1f1f1f1f100001",
+    "courseName": "ESG Fundamentals",
+    "completionDate": "2026-01-15T00:00:00.000Z",
+    "status": "COMPLETED",
+    "progress": 100
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0002",
+    "employeeId": "60d5ec4f1f1f1f1f1f100002",
+    "courseName": "ESG Fundamentals",
+    "completionDate": "2026-01-20T00:00:00.000Z",
+    "status": "COMPLETED",
+    "progress": 100
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0003",
+    "employeeId": "60d5ec4f1f1f1f1f1f100003",
+    "courseName": "ESG Fundamentals",
+    "completionDate": null,
+    "status": "IN_PROGRESS",
+    "progress": 65
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0004",
+    "employeeId": "60d5ec4f1f1f1f1f1f100004",
+    "courseName": "ESG Fundamentals",
+    "completionDate": "2026-02-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "progress": 100
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0005",
+    "employeeId": "60d5ec4f1f1f1f1f1f100005",
+    "courseName": "ESG Fundamentals",
+    "completionDate": null,
+    "status": "NOT_STARTED",
+    "progress": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0006",
+    "employeeId": "60d5ec4f1f1f1f1f1f100006",
+    "courseName": "Carbon Accounting 101",
+    "completionDate": "2026-02-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "progress": 100
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0007",
+    "employeeId": "60d5ec4f1f1f1f1f1f100007",
+    "courseName": "Carbon Accounting 101",
+    "completionDate": null,
+    "status": "IN_PROGRESS",
+    "progress": 40
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0008",
+    "employeeId": "60d5ec4f1f1f1f1f1f100008",
+    "courseName": "Carbon Accounting 101",
+    "completionDate": null,
+    "status": "IN_PROGRESS",
+    "progress": 80
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a0009",
+    "employeeId": "60d5ec4f1f1f1f1f1f100001",
+    "courseName": "Diversity & Inclusion Training",
+    "completionDate": "2026-03-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "progress": 100
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a000a",
+    "employeeId": "60d5ec4f1f1f1f1f1f100002",
+    "courseName": "Diversity & Inclusion Training",
+    "completionDate": null,
+    "status": "IN_PROGRESS",
+    "progress": 55
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a000b",
+    "employeeId": "60d5ec4f1f1f1f1f1f100003",
+    "courseName": "Diversity & Inclusion Training",
+    "completionDate": null,
+    "status": "NOT_STARTED",
+    "progress": 0
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f0a000c",
+    "employeeId": "60d5ec4f1f1f1f1f1f100009",
+    "courseName": "Carbon Accounting 101",
+    "completionDate": "2026-03-15T00:00:00.000Z",
+    "status": "COMPLETED",
+    "progress": 100
+  }
+]

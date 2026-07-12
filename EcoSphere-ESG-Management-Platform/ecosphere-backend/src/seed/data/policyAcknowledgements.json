@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140001",
+    "employeeId": "60d5ec4f1f1f1f1f1f100001",
+    "policyId": "60d5ec4f1f1f1f1f1f050001",
+    "acknowledgedAt": "2026-01-10T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140002",
+    "employeeId": "60d5ec4f1f1f1f1f1f100002",
+    "policyId": "60d5ec4f1f1f1f1f1f050001",
+    "acknowledgedAt": "2026-01-12T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140003",
+    "employeeId": "60d5ec4f1f1f1f1f1f100003",
+    "policyId": "60d5ec4f1f1f1f1f1f050001",
+    "acknowledgedAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140004",
+    "employeeId": "60d5ec4f1f1f1f1f1f100001",
+    "policyId": "60d5ec4f1f1f1f1f1f050002",
+    "acknowledgedAt": "2026-01-10T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140005",
+    "employeeId": "60d5ec4f1f1f1f1f1f100003",
+    "policyId": "60d5ec4f1f1f1f1f1f050002",
+    "acknowledgedAt": "2026-01-20T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140006",
+    "employeeId": "60d5ec4f1f1f1f1f1f100004",
+    "policyId": "60d5ec4f1f1f1f1f1f050003",
+    "acknowledgedAt": "2026-02-01T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140007",
+    "employeeId": "60d5ec4f1f1f1f1f1f100006",
+    "policyId": "60d5ec4f1f1f1f1f1f050003",
+    "acknowledgedAt": "2026-02-05T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140008",
+    "employeeId": "60d5ec4f1f1f1f1f1f100007",
+    "policyId": "60d5ec4f1f1f1f1f1f050003",
+    "acknowledgedAt": "2026-02-10T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f140009",
+    "employeeId": "60d5ec4f1f1f1f1f1f100001",
+    "policyId": "60d5ec4f1f1f1f1f1f050004",
+    "acknowledgedAt": "2026-01-10T00:00:00.000Z"
+  },
+  {
+    "_id": "60d5ec4f1f1f1f1f1f14000a",
+    "employeeId": "60d5ec4f1f1f1f1f1f100008",
+    "policyId": "60d5ec4f1f1f1f1f1f050004",
+    "acknowledgedAt": "2026-02-15T00:00:00.000Z"
+  }
+]
